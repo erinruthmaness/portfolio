@@ -1,6 +1,12 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Portfolio",
+  "name": "Erin Ruth Maness Portfolio",
+  "author": "Erin Ruth Maness",
+  "developer": {
+    "name": "Erin Ruth Maness",
+    "url": "https://github.com/erinruthmaness"
+  },
+  "description": "Erin Ruth Maness's web development portfolio.",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,18 +14,22 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
+      "src": "assets/logo192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "assets/logo512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "id": "/",
+  "start_url": "./",
+  "scope": ".",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#F01D7F",
+  "background_color": "#ffffff",
+  "manifest_version": 2,
+  "version": "1.0"
 }
