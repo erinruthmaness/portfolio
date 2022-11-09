@@ -1,0 +1,48 @@
+:root {
+    --w98-lightest-gray: rgb(224, 224, 224);
+    --w98-light-gray: rgb(195, 199, 203);
+    --w98-dk-gray: rgb(134, 138, 142);
+    --w98-darkest-gray: rgb(78, 78, 78);
+    --w98-bg-gray: rgb(192, 192, 192);
+    --w98-bluescreen-blue: rgb(0, 0, 170);
+    --w98-font-size: 12px;
+    --w98-font-family-close: 'px sans nouveaux', sans-serif;
+    --w98-letterspace-close: -.025em;
+    --w98-font-family-default: Arial, Helvetica, sans-serif;
+    --w98-letterspace-default: .025em;
+    --w98-box-shadow: inset 1px 1px var(--w98-lightest-gray), inset -1px -1px var(--w98-light-gray);
+    --w98-box-shadow-dip: inset 2px 2px var(--w98-dk-gray), inset -2px -2px white;
+    --w98-border: 1px solid;
+    --w98-border-color: var(--w98-lightest-gray) var(--w98-dk-gray) var(--w98-dk-gray) var(--w98-lightest-gray);
+    --w98-card-padding: 3px 2px 2px 3px;
+}
+
+body {
+    background-color: #007f80;
+    letter-spacing: var(--w98-letterspace-default);
+    font-family: var(--w98-font-family-default);
+    font-size: var(--w98-font-size);
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+}
+
+button {
+    --button-box-shadow-color1: var(--w98-lightest-gray);
+    --button-box-shadow-color2: black;
+    --button-box-shadow-color3: black;
+    --button-box-shadow-color4: black;
+    font-size: var(--w98-font-size);
+    border: var(--w98-border);
+    border-color: var(--w98-border-color);
+    box-shadow: inset 1px 1px var(--button-box-shadow-color1), 1px 0 var(--button-box-shadow-color2), 0 1px var(--button-box-shadow-color3), 1px 1px var(--button-box-shadow-color4);
+    background-color: var(--w98-bg-gray);
+    font-family: var(--w98-font-family-default);
+    letter-spacing: -.05em;
+}
+
+.button--focus {
+    border-color: black transparent transparent black;
+    box-shadow: inset 1px 1px var(--w98-dk-gray);
+    background: repeating-conic-gradient(var(--w98-lightest-gray) 0% 25%, var(--w98-bg-gray) 0% 50%);
+    background-size: 2px 2px;
+}
