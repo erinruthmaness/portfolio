@@ -1,11 +1,11 @@
-import { Footer } from "components/layout";
-import styles from "./App.module.css";
+import Layout from "components/layout";
+import { Window } from "components/common";
 
 function App() {
   return (
-    <div className={styles.window_container}>
-      <Footer />
-    </div>
+    <Layout>
+      <Window />
+    </Layout>
   );
 }
 

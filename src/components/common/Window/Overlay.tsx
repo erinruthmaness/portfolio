@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import windowContext from "store/windowContext";
-import { Modal } from "components/common";
-import styles from "./Overlay.module.css";
+import Modal from "components/common/Window/Modal";
+import styles from "styles/window.module.css";
 
 const Overlay = () => {
   const windowCtx = useContext(windowContext);

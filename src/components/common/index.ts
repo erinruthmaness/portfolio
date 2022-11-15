@@ -1,3 +1,3 @@
-import Modal from "./Modal/Modal";
+import Window from "components/common/Window";
 
-export { Modal };
+export { Window };

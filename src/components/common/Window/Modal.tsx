@@ -6,7 +6,7 @@ import useDragMove from "hooks/useDragMove";
 import { types } from "models";
 
 import titleStyles from "Components/Window/MenuBar/TitleBar/TitleBar.module.css";
-import styles from "./Modal.module.css";
+import styles from "styles/window.module.css";
 
 export interface ModalProps {
   title: string | types.ReactChildren;

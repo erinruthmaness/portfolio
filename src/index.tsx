@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./styles/index.css";
-import "./styles/windows98.css";
+import "./styles/_index.css";
+import "./styles/_windows98.css";
 import { WindowCtxProvider } from "store/windowContext";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
