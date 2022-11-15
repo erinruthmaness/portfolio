@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import useDragMove, { useDragMoveOutput } from "../hooks/useDragMove";
+import useDragMove, { useDragMoveOutput } from "hooks/useDragMove";
 
-import { types, props } from "../models";
+import { types, props } from "models";
 
 interface WindowCtx {
   overlay: {
